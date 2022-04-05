@@ -1,12 +1,8 @@
-{
-  "name": "readme.so",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+"scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "test": "jest",
+    "start": "next start -p $PORT"
+  }
     "test:watch": "jest --watchAll",
     "lint": "next lint && prettier --check .",
     "format": "prettier --write . && git add -A .",
